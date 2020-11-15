@@ -11,36 +11,62 @@
     <title>Portafolio</title>
   </head>
   <body>
+
     <nav class=" navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Gustavo Andres</a>
+     
+      
+      <a class="navbar-brand" >Gustavo Andres</a>
+     
       <button class="navbar-toggler" type="button" data-toggle="collapse"
        data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" 
        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
+
       <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mr-auto">
+        
+        <ul class="navbar-nav ml-auto">
+          
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" onclick="home(event)">Home </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Perfil</a>
+            <a class="nav-link" onclick="perfil(event)">Perfil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portafolio</a>
+            <a class="nav-link" onclick="portafolio(event)">Portafolio</a>
           </li>
         </ul>
-        <span class="navbar-text">
-          Programador Web
-        </span>
+     
       </div>
     </nav>
+
+
       <div class="container">
 
-          <h1>
- 
-          </h1>
+         
+        <div id="home" class="row">
+          <div class="col">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ducimus ad doloremque repudiandae accusamus hic voluptas dolore. Odit dolor debitis dolore, sed iusto aperiam quos distinctio, quis laboriosam, quisquam necessitatibus.</p>
+          </div>
+       
+        </div>
 
+
+        <div id="perfil" class="perfil row">
+          <div class="col">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem autem, animi debitis quia inventore placeat, accusamus iusto similique suscipit voluptas exercitationem vel aliquam itaque dolore voluptatibus, sapiente odit corrupti odio.</p>
+          </div>
+     
+        </div>
+
+        <div id="portafolio" class="portafolio row">
+          <div class="col">
+           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim odio dolore debitis repellat porro labore ex quaerat optio animi blanditiis, nostrum molestias voluptates minus cum voluptate maxime. Hic, iusto ea!</p>
+          </div>
+        
+        </div>
     
       </div>
 
